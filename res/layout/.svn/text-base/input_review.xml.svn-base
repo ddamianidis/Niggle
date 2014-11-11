@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+ 
+	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/inputreview1"    
+    android:layout_width="wrap_content"
+    android:layout_height="854px"
+    android:layout_alignParentBottom="true"
+    > 
+    <include android:id="@+id/inputreview_base_activity" layout="@layout/base_activity" />
+			
+	
+</RelativeLayout>
+
+    

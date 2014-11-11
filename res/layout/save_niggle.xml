@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+	    
+	<RelativeLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:gravity="top" >
+	
+	<ImageView
+	    android:id="@+id/intro_background_static"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_centerHorizontal="false"
+	    android:src="@drawable/intro_background_static" />    
+    
+	<ImageView
+        android:id="@+id/header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:src="@drawable/header" />
+	 
+	<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+     <ImageButton
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="false"
+        android:layout_marginTop="5dp"
+        android:onClick ="OnBackClick"
+        android:src="@drawable/back_s" />
+	
+    <ImageView
+        android:id="@+id/nail_that_niggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+       android:src="@drawable/logo_small" />
+    
+	</LinearLayout>
+
+	    <ImageView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft = "true"
+        android:src="@drawable/what_niggled_me" 
+        android:layout_marginTop = "80dp" 
+        >
+       </ImageView>
+		         
+	    <EditText
+        android:id="@+id/edit_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize = "20sp"
+        android:text=""
+        android:background = "@drawable/white" 
+        android:layout_marginTop = "130dp"
+        android:layout_marginLeft = "10dp"
+         />  
+	        	  
+	    <ImageButton
+        android:id="@+id/done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop = "230dp"
+        android:layout_marginLeft="0dp"
+        android:onClick ="OnDoneClick"
+        android:src="@drawable/done_s" />  
+        
+	    </RelativeLayout>
+</LinearLayout>

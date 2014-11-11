@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="854px"
+    android:orientation="vertical" >
+    
+	<include android:id="@+id/base_activity" layout="@layout/base_activity" />    
+   
+	<!-- share_profile_layout -->
+    <RelativeLayout
+    android:id="@+id/share_profile_layout"    
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+	android:layout_centerHorizontal="true"
+	android:layout_marginTop="100dp"
+    >
+
+    <ImageView
+    android:id="@+id/profile_space"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:contentDescription="@string/empty"
+    android:src="@drawable/profile_space" />
+
+    <ImageView
+    android:id="@+id/profile_image"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:layout_alignParentLeft="true"
+    android:src="@drawable/profile_photo"
+   />
+   
+    </RelativeLayout><!-- End of share_profile_layout -->
+	
+	<!-- text_share_layout -->
+    <RelativeLayout
+    android:id="@+id/text_about_layout"    
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+	android:layout_centerHorizontal="true"
+	android:layout_marginTop="250dp"
+    >
+
+    <ImageView
+    android:id="@+id/text_box_2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:contentDescription="@string/empty"
+    android:src="@drawable/text_box_2" />
+
+    <TextView
+    android:id="@+id/share_text"
+    android:layout_width="280dp"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:gravity ="center"
+    android:text="@string/empty"
+	android:layout_marginTop="15dp"
+    >
+    </TextView>
+    </RelativeLayout><!-- End of text_share_layout -->
+    
+	<!-- share  Button-->
+    <ImageButton
+    android:id="@+id/share_button"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="465dp"
+    android:onClick ="OnShareClick"
+    android:contentDescription ="@string/empty"
+    android:src="@drawable/share_button_s" />
+
+</RelativeLayout>

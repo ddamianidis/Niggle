@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>    
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="wrap_content"
+android:layout_height="854px"
+android:gravity="top" >
+    		
+<!-- include xml of basic activity -->
+<include android:id="@+id/base_activity" layout="@layout/base_activity" />
+<!-- 
+<ImageView
+android:id="@+id/text_box_white"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginTop="90dp"
+android:layout_marginLeft="10dp"
+android:contentDescription="@string/empty"
+android:src="@drawable/text_box_white" />
+android:fastScrollEnabled="true"
+android:scrollbars="vertical"
+ android:background="@drawable/text_box_white
+ -->
+<!-- List Title -->
+<LinearLayout 
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:layout_marginTop="70dp"
+ android:layout_marginLeft="15dp"
+ android:orientation="horizontal"
+ >
+ 
+<TextView
+android:id="@+id/my_niggles"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:textColor="#ffffff"
+android:textSize = "20sp"
+android:text="@string/my_niggles_title" />
+
+<ImageButton
+ android:id="@+id/previous_button"
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:layout_marginLeft="65dp"
+ android:layout_marginTop="-9dp"
+ android:onClick ="OnPreviousClick"
+ android:src="@drawable/left_button" >
+ </ImageButton>
+
+<ImageButton
+ android:id="@+id/next_button"
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:layout_marginLeft="25dp"
+ android:layout_marginTop="-9dp"
+ android:onClick ="OnNextClick"
+ android:src="@drawable/enter" >
+</ImageButton>
+
+</LinearLayout>	
+
+<LinearLayout android:id="@+id/container"
+ android:layout_width="297dp"
+ android:layout_height="425dp"
+ android:layout_marginTop="100dp"
+ android:layout_marginLeft="10dp"
+ android:focusable="false"
+ android:clickable="false" 
+ android:focusableInTouchMode="false"
+ android:background="@drawable/text_box_white"
+ >
+    	      <!-- ListView android:id="@android:id/list" -->
+ <ListView android:id="@+id/list" 
+android:layout_width="wrap_content"  
+android:layout_height="wrap_content"
+android:layout_marginLeft="0dp"	   
+android:fadingEdge="vertical"
+android:padding="0dp"   
+android:focusable="false"
+android:focusableInTouchMode="false"
+android:clickable="false"  
+android:fastScrollEnabled="false"
+android:scrollbars="vertical" 
+android:cacheColorHint="#00000000"
+>       
+</ListView>    
+</LinearLayout>
+
+ <ImageButton
+        android:id="@+id/delete_s"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_marginTop="110dp"
+        android:layout_marginLeft = "200dp"
+   		android:focusable="false"
+   		android:focusableInTouchMode="false"
+        android:src="@drawable/delete_s" >
+    </ImageButton>
+     
+</RelativeLayout>
+	 	         

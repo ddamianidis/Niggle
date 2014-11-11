@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="854px"
+    android:orientation="vertical" >
+    
+	<include android:id="@+id/base_activity" layout="@layout/base_activity" />    
+   
+	<!-- text_about_layout -->
+    <RelativeLayout
+    android:id="@+id/text_about_layout"    
+    android:layout_width="441px"
+    android:layout_height="wrap_content"
+	android:layout_centerHorizontal="true"
+	android:layout_marginTop="100dp"
+	android:background = "@drawable/text_box_2"
+    >
+
+    <TextView
+    android:id="@+id/text_wiggle"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:gravity ="center"
+     android:text="@string/text_wiggle"
+    >
+    </TextView>
+    </RelativeLayout><!-- End of text_menu_layout -->
+    
+	<!-- GoNiggle  Button-->
+    <ImageButton
+    android:id="@+id/wiggle_phone_image"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="310dp"
+    android:onClick ="OnWiggleClick"
+    android:contentDescription ="@string/empty"
+    android:src="@drawable/wiggle_phone_image" />
+
+</RelativeLayout>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string name="empty"></string>
+     <string name="app_name">Niggle</string>
+     <string name="how_to_niggle">HOW TO NIGGLE</string>
+     <string name="share">http://himumsaiddad.com/</string>
+     <string name="my_niggles_title">My Niggles</string>
+     <string name="text_input_1">What\'s niggling you?</string>
+     <string name="text_input_2"></string>
+     <string name="invalid_niggle_message_title">Invalid Niggle</string>
+     <string name="invalid_niggle_message_text">You must enter your Niggle</string>
+     <string name="invalid_answer_message_title">Invalid Answer</string>
+     <string name="invalid_answer_message_text">You must enter an Answer</string>
+     <string name="invalid_input_message_title">Invalid Input</string>
+     <string name="invalid_input_message_text">You must enter your niggle and answer at least one question</string>
+     
+     <string name="text_loading">
+     If there’s something in your life\n
+     or on your mind\n
+     that’s annoying, irritating,\n
+     or just plain distracting you\n
+     from having fun,\n
+     you have a niggle.\n
+     \n
+     You know you need answers,\n
+     and that the key to the right\n
+     answer is the right\n
+     question, right?!
+     </string>
+     <string name="text_menu">
+     Niggle is about looking at the\n
+     same thing through new eyes\n
+     and thinking about it from a\n
+     different angle
+     </string>
+     <string name="twitter_message">
+     I \'m using the Niggle life coaching\n
+     app to help with life\'s most\n
+     interesting challenges. it\'s fun!\n
+     Now on iPhone and iPad.
+     </string>
+	<string name="twitter_post">
+     I \'m using the Niggle life coaching app to help with life\'s most interesting challenges. it\'s fun! Now on iPhone and iPad.
+     </string>
+     
+     <string name="facebook_message">
+     What\'s it all about? I \'m using the\n
+     Niggle life-coaching app to help\n
+     with lif\'s most interesting\n
+     challenges and opportunities... it\n
+     works and it\'s fun! Get yours on\n
+     iPhone and iPad.
+     </string>
+     
+     <string name="text_wiggle">
+     When you\'re clear about what\'s\n
+     niggling you, wiggle your niggle\n
+     and allow yourself a few\n
+     moments to relax and be\n
+     mesmerised by the universal\n
+     symbol of infinity that appears\n
+     on your screen...
+     </string>
+     <string name="text_zonein">
+     Zone in.\n
+     Look at the screen and think\n
+     about your Niggle
+     </string>
+     <string name="text_about">
+     Niggle works best when you\'re
+     open to the fact that changing
+     the way you see your niggle is
+     what stops it niggling.\n
+     \n
+     First be clear about what\'s
+     niggling you.\n
+     \n
+     You can make a note of it in the
+     text box or just wiggle to move
+     on.\n
+     \n
+     Allow yourself a few moments to
+     relax and be mesmerised by the
+     universal symbol of infinity that
+     appears on your screen...\n
+     \n
+     Take your time to reflect on
+     each of the questions, in your
+     own mind, before wigglin for
+     the next one. Wiggling (shaking)
+     your device is what you do to
+     get a new page or new
+     question. You can also use the
+     \'Wiggle\' icon.\n
+     \n
+     Hit \"Nailed it!\" if you want to skip
+     any remaining questions and go
+     straight to save and share, and
+     to receive the universal wisdom
+     that\'s in store for you today.\n
+     \n
+     Niggle is for fun and for playing
+     alone and with friends!
+     </string>
+     <string name="review_title">Nailed it? Nice one!</string>
+     <string name="review_body">
+      Write down what you now know and\n
+      will now do and save your niggle
+      </string>
+      <string name="review_what_i_now_know">What I now know...</string>
+      <string name="review_what_i_ll_now_do">What I\'ll now do</string>
+      
+</resources>

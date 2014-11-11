@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/detailed_item"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:orientation = "horizontal"
+>
+<!--  
+<ImageView
+ android:id="@+id/text_bar_3"
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:layout_marginTop = "0dp"
+ android:src="@drawable/text_bar_3" >
+</ImageView>
+    	-->
+    	<!-- android:background = "@drawable/text_bar_3"  -->
+<RelativeLayout 
+android:id="@+id/text_bg"
+android:layout_width="255dp"
+android:layout_height="wrap_content"
+android:orientation = "vertical"
+
+>
+<TextView
+ android:id="@+id/detailed_text1"
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:textColor="#ffffff"
+ android:textSize = "20sp"
+ android:layout_marginTop = "0dp"
+ android:layout_marginLeft = "0dp"
+/>
+    
+ <TextView
+ android:id="@+id/detailed_text2"
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:textColor="#ffffff"
+ android:textSize = "20sp"
+ android:layout_marginTop = "0dp"
+ android:layout_below="@+id/detailed_text1"
+ android:layout_marginLeft = "0dp"
+  />
+</RelativeLayout>     
+<ImageView
+android:id="@+id/round_button"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginLeft = "275dp"
+android:layout_centerVertical="true"
+android:src="@drawable/round_button" 
+>
+</ImageView>  
+
+<ImageView
+android:id="@+id/round_button_2"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginLeft = "275dp"
+android:src="@drawable/round_button_2" 
+>
+ <!-- android:layout_centerVertical="true" -->
+</ImageView>  
+	
+</RelativeLayout>

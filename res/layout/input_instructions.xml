@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="top" >
+
+        <ImageView
+            android:id="@+id/intro_background_static"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="false"
+            android:src="@drawable/intro_background_static" />
+
+        <ImageButton
+                android:id="@+id/skip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerHorizontal="false"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="400dp"
+                android:onClick="OnSkipClick"
+                android:src="@drawable/skip_s" />
+        
+                <ImageView
+                android:id="@+id/instructions_box"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="100dp"
+                android:src="@drawable/text_box_02" />
+
+            <TextView
+                android:id="@+id/instructions_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="100dp"
+                android:text="" >
+            </TextView>
+        
+        <ImageButton
+                android:id="@+id/what_i_now_know"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerHorizontal="false"
+                android:layout_marginTop="350dp"
+                android:onClick="OnWhatIKnowClick"
+                android:src="@drawable/what_i_now_know_s" />
+       
+    </RelativeLayout>
+
+</LinearLayout>

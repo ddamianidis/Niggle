@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="bottom" >
+    
+    <ImageView
+	    android:id="@+id/heart_background_static"
+	    android:layout_width="wrap_content"
+	    android:layout_height="fill_parent"
+	    android:layout_alignParentTop="true"
+	    android:layout_centerHorizontal="false"
+	    android:layout_marginTop="0dp"
+	    android:src="@drawable/heart_background_static_1" />
+    	<ImageButton
+        android:id="@+id/eureka"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="false"
+        android:layout_marginTop="400dp"
+        android:onClick ="OnEurekaClick"
+        android:src="@drawable/menu_s" />
+   						
+      
+      </RelativeLayout>

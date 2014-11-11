@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+    <!-- ***************************************************** -->
+	<!-- ****************** Base Activity Screen ************* -->
+	<!-- ***************************************************** -->
+	<ImageView
+	    android:id="@+id/background"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_centerHorizontal="false"
+	    android:contentDescription ="@string/empty"
+	    android:src="@drawable/intro_background_static" />    
+    
+	<ImageView
+        android:id="@+id/header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription ="@string/empty"
+         android:src="@drawable/head_background_logo" />   
+	
+	<LinearLayout 
+	android:id="@+id/header_layout"    
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+		    
+    <ImageButton
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="-5dp"
+        android:contentDescription ="@string/empty"
+        android:src="@drawable/back_s" />
+    
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-12dp"
+        android:layout_marginLeft="-10dp"
+        android:contentDescription ="@string/empty"
+       android:src="@drawable/logo_small" />
+    
+    <ImageButton
+        android:id="@+id/menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="-6dp"
+        android:contentDescription ="@string/empty"
+        android:src="@drawable/menu_s" />
+	</LinearLayout>	       
+</RelativeLayout>
+	 	         

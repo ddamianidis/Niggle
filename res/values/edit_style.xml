@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="EditPopupStyle" parent="@android:style/Theme.Dialog">
+
+	<item name="android:colorBackground">#00000000</item>
+
+    </style>
+</resources>
+

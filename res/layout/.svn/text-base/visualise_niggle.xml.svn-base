@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/visualise_niggle"
+android:layout_width="wrap_content"
+android:layout_height="854px"
+ >
+ <VideoView 
+        android:id="@+id/surface_view" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+   />     
+    
+ <include android:id="@+id/visualise_base_activity" layout="@layout/base_activity" />
+ 
+       <!-- include xml of basic activity -->
+<ImageButton
+ android:id="@+id/nailed_it_small"
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:layout_marginTop = "12dp"
+ android:layout_marginLeft = "-5dp"
+ android:onClick ="onNailItClick"
+ android:src="@drawable/nailed_it_small_s" >
+</ImageButton>
+
+<ScrollView android:id="@+id/visualise_scroll" android:layout_width="wrap_content"
+android:layout_height="530px"
+android:layout_centerHorizontal="true"
+android:layout_marginTop = "70dp"
+>
+<LinearLayout
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:orientation="vertical"
+>
+<LinearLayout
+android:id="@+id/qa_list"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:orientation="vertical"
+android:layout_marginTop = "0dp" >
+</LinearLayout>
+</LinearLayout>
+</ScrollView>
+
+<LinearLayout
+android:id="@+id/flow_buttons"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:orientation="horizontal"
+android:layout_centerHorizontal="true"
+android:layout_marginTop = "450dp"
+>
+<ImageButton
+ android:id="@+id/nail_it"
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ 
+ android:src="@drawable/nailed_it_s" >
+</ImageButton>
+
+<ImageButton
+ android:id="@+id/keep_going"
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+
+ android:src="@drawable/keep_going_s" >
+</ImageButton>
+</LinearLayout>
+<RelativeLayout 
+android:id="@+id/zone_in_box"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:orientation = "vertical"
+android:background = "@drawable/text_box_1"
+android:layout_marginTop = "420dp"
+android:layout_centerHorizontal="true"
+>
+<TextView
+ android:id="@+id/zone_in_text"
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:textColor="#ffffff"
+ android:gravity="center"
+ android:textSize = "20sp"
+ android:text = "@string/text_zonein"
+ android:layout_centerInParent ="true"
+/>
+</RelativeLayout>
+
+</RelativeLayout>

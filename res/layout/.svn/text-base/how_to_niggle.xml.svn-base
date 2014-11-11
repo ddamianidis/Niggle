@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="854px"
+    android:orientation="vertical" >
+    
+	<include android:id="@+id/base_activity" layout="@layout/base_activity" />
+	    
+   <ScrollView  android:layout_width="310dp"
+	android:layout_height="444dp"
+	android:layout_centerHorizontal="true"
+	android:layout_marginTop = "77dp"
+	android:background="@drawable/text_box_big"
+	>
+	 <LinearLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    
+    >
+	<!-- text_about_layout -->
+    <RelativeLayout
+    android:id="@+id/text_about_layout"    
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+	android:layout_marginTop="0dp"
+	android:layout_gravity="center"
+	
+    >
+
+    <TextView
+    android:id="@+id/text_about"
+    android:layout_width="290dp"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:padding="5px"
+    android:gravity ="center"
+    android:text="@string/text_about"
+	android:layout_marginTop="5dp"
+    >
+    </TextView>
+    </RelativeLayout><!-- End of text_menu_layout -->
+    <!-- GoNiggle  Button-->
+    <ImageButton
+    android:id="@+id/nail_that_niggle"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:onClick ="OnNailThatNiggleClick"
+    android:contentDescription ="@string/empty"
+    android:src="@drawable/nail_that_niggle_s" />
+    
+    </LinearLayout>
+	
+</ScrollView>
+</RelativeLayout>
