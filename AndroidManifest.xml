@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.himumsaiddad.niggle"
+    android:installLocation="preferExternal"
+    android:versionCode="1"
+    android:versionName="1.0" 
+    >
+    
+       <supports-screens android:smallScreens="false"
+        android:normalScreens="false"
+        android:largeScreens="true"
+        android:anyDensity="true"/>     
+    
+
+    <uses-sdk android:minSdkVersion="8" />
+	<uses-permission android:name="android.permission.INTERNET"/>  
+    <application android:name=".NiggleApplication"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" 
+        android:debuggable="true"
+         
+         android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+        <activity
+            android:label="@string/app_name"
+        	  
+            android:name=".intro.SplashScreen" 
+            android:launchMode="singleTop"
+            >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="ShareOnFacebookActivity"
+            android:name=".share.ShareOnFacebookActivity" 
+            android:theme="@style/Theme.facebookActivity">
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        
+        
+        <activity
+            android:label="My Niggles"
+            android:name=".myNiggles.myniggles"
+            android:screenOrientation="portrait" >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="Edit Niggle"
+            android:name=".myNiggles.detailedniggle" >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+                
+            </intent-filter>
+        </activity>
+		<activity
+            android:label="NailThatNiggle"
+            android:name=".visualiseNiggle.NailThatNiggle" >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+		
+        <activity
+            android:label="Visualise Niggle"
+            android:name=".visualiseNiggle.VisualiseNiggle"
+            android:configChanges="orientation"
+            android:windowSoftInputMode = "adjustPan" >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+                
+            </intent-filter>
+        </activity>
+         <activity
+            android:label="Input Instructions"
+            android:name=".visualiseNiggle.inputinstructions" >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+                
+            </intent-filter>
+        </activity>
+         <activity
+            android:label="inputreview"
+            android:name=".visualiseNiggle.inputreview" 
+            android:configChanges="keyboardHidden"
+            android:windowSoftInputMode = "adjustPan">
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+                
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="inputniggle"
+            android:name=".visualiseNiggle.inputniggle"
+            >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+                
+            </intent-filter>
+        </activity>
+         <activity
+            android:label="saveniggle"
+            android:name=".visualiseNiggle.saveniggle" >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+                
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="wisdom"
+            android:name=".visualiseNiggle.wisdom" >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+                
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="hearttransition"
+            android:name=".visualiseNiggle.hearttransition" >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+                
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="HOW TO NIGGLE"
+            android:name=".HowToNiggle.HowToNiggle" >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+                   
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="Share"
+            android:name=".share.ShareScreen" >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+                   
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".twitter.TwitterActivity"
+            	  android:theme="@style/Theme.twitterActivity"
+                  android:label="TwitterShare">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                
+            </intent-filter>
+        </activity>
+
+		<activity android:name=".twitter.RequestTokenActivity" 
+		    android:theme="@style/Theme.twitterActivity"
+		   android:launchMode="singleTask">
+			<intent-filter>
+				<action android:name="android.intent.action.VIEW" />
+				<category android:name="android.intent.category.DEFAULT" />
+				<category android:name="android.intent.category.BROWSABLE" />
+				<data android:scheme="x-oauthflow-twitter" android:host="callback" />
+			</intent-filter>
+		</activity>
+	
+		
+    </application>
+             
+</manifest>
